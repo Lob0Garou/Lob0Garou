@@ -12,7 +12,7 @@ I build software end to end: data model, backend, UI, integrations, tests, deplo
 
 Client repos are private and names are withheld by agreement. I'm happy to walk through architecture and sanitized code in a call.
 
-- **Back-end module for a platform in a regulated market** (Brazil, under NDA) — .NET 8, EF Core, MySQL. Spec-driven implementation with risk-tiered review and property-based tests (xUnit + FsCheck).
+- **Back-end module for a platform in a regulated market** (Brazil, under NDA) — .NET 8, EF Core, MySQL. Spec-driven implementation with risk-tiered review and property-based tests (xUnit + FsCheck). The same conventions, in the open: [retail-orders-api](https://github.com/Lob0Garou/retail-orders-api).
 - **Logistics & inventory analytics dashboard** (national retail chain) — turns ERP and spreadsheet exports into replenishment and transfer decisions by crossing stock coverage and logistics flow with each category's share of revenue. React, Recharts, CSV/spreadsheet parsing. Built and evolved across multiple store operations.
 - **Sales performance calendar** (retail leadership) — generates a month view that distributes the sales target across days using the store's historical sales curve and commercial dates, then tracks target vs. actual per day. Rebuilt generic in public: [code](https://github.com/Lob0Garou/sales-performance-calendar) · [live demo](https://lob0garou.github.io/sales-performance-calendar/).
 - **Marketplace MVP for a gaming startup** — Next.js, TypeScript, mock-first architecture designed to swap in the real backend without UI rewrites. Typed end to end, green build.
@@ -27,6 +27,7 @@ Client repos are private and names are withheld by agreement. I'm happy to walk 
 
 ## Public code
 
+- **[retail-orders-api](https://github.com/Lob0Garou/retail-orders-api)** — production-grade .NET 8 reference API: retail orders and stock with exact-cent installment math, no-oversell optimistic concurrency, a strict order state machine, property-based tests (xUnit + FsCheck) and Testcontainers integration tests against real MySQL. This is how I build client back-ends.
 - **[sales-performance-calendar](https://github.com/Lob0Garou/sales-performance-calendar)** — splits a monthly sales target across days via weekday weights and commercial-date boosts. Largest-remainder allocation: daily targets sum to the monthly target exactly, enforced by a 300-case randomized test. Vanilla JS, zero dependencies, `node --test`. ([live demo](https://lob0garou.github.io/sales-performance-calendar/))
 - **[pageforce-seo-cro-checklist](https://github.com/Lob0Garou/pageforce-seo-cro-checklist)** — interactive SEO/CRO audit checklist with live scoring. Single-file vanilla HTML/CSS/JS, zero dependencies, no build step, deployed via GitHub Pages. ([live demo](https://lob0garou.github.io/pageforce-seo-cro-checklist/))
 
