@@ -14,7 +14,7 @@ Client repos are private and names are withheld by agreement. I'm happy to walk 
 
 - **Back-end module for a platform in a regulated market** (Brazil, under NDA) — .NET 8, EF Core, MySQL. Spec-driven implementation with risk-tiered review and property-based tests (xUnit + FsCheck).
 - **Logistics & inventory analytics dashboard** (national retail chain) — turns ERP and spreadsheet exports into replenishment and transfer decisions by crossing stock coverage and logistics flow with each category's share of revenue. React, Recharts, CSV/spreadsheet parsing. Built and evolved across multiple store operations.
-- **Sales performance calendar** (retail leadership) — generates a month view that distributes the sales target across days using the store's historical sales curve and commercial dates, then tracks target vs. actual per day. Lightweight single-file HTML tool — zero install for store managers.
+- **Sales performance calendar** (retail leadership) — generates a month view that distributes the sales target across days using the store's historical sales curve and commercial dates, then tracks target vs. actual per day. Rebuilt generic in public: [code](https://github.com/Lob0Garou/sales-performance-calendar) · [live demo](https://lob0garou.github.io/sales-performance-calendar/).
 - **Marketplace MVP for a gaming startup** — Next.js, TypeScript, mock-first architecture designed to swap in the real backend without UI rewrites. Typed end to end, green build.
 - **Desktop automation assistant** — Python, Tesseract OCR, keyboard/mouse control with failsafe hotkeys and per-machine calibration config.
 - **Data pipeline for a sports-analytics spreadsheet product** — Google Apps Script importing CSV exports from Drive into structured analysis tabs, safe to re-run.
@@ -27,6 +27,7 @@ Client repos are private and names are withheld by agreement. I'm happy to walk 
 
 ## Public code
 
+- **[sales-performance-calendar](https://github.com/Lob0Garou/sales-performance-calendar)** — splits a monthly sales target across days via weekday weights and commercial-date boosts. Largest-remainder allocation: daily targets sum to the monthly target exactly, enforced by a 300-case randomized test. Vanilla JS, zero dependencies, `node --test`. ([live demo](https://lob0garou.github.io/sales-performance-calendar/))
 - **[pageforce-seo-cro-checklist](https://github.com/Lob0Garou/pageforce-seo-cro-checklist)** — interactive SEO/CRO audit checklist with live scoring. Single-file vanilla HTML/CSS/JS, zero dependencies, no build step, deployed via GitHub Pages. ([live demo](https://lob0garou.github.io/pageforce-seo-cro-checklist/))
 
 Most of my work is client delivery, so it stays in private repositories on purpose. This profile shows enough to evaluate how I build; the rest I show on request.
