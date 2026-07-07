@@ -1,0 +1,53 @@
+# Yuri Queiroz
+
+**Full-stack developer — web apps, automation and internal tools that ship.**
+
+TypeScript · React/Next.js · Node.js · C#/.NET · Python · SQL — based in Brazil, working in PT-BR and EN.
+
+I build software end to end: data model, backend, UI, integrations, tests, deploy. Before writing code full time I spent 8+ years running high-pressure retail operations — conversion, staffing, inventory, daily targets — so I'm at my best turning a messy real-world workflow into a working system, and measuring the result instead of assuming it.
+
+**Currently:** client back-end work under NDA (.NET 8 / EF Core / MySQL) · operating [Entrevista Mapeada](https://entrevistamapeada.com.br) in production · evolving [Escala que Converte](https://escalaqueconverte.com.br) · building sites and growth systems at [PageForce](https://pageforce.com.br)
+
+## Recent client work
+
+Client repos are private and names are withheld by agreement. I'm happy to walk through architecture and sanitized code in a call.
+
+- **Back-end module for a platform in a regulated market** (Brazil, under NDA) — .NET 8, EF Core, MySQL. Spec-driven implementation with risk-tiered review and property-based tests (xUnit + FsCheck).
+- **Logistics & inventory analytics dashboard** (national retail chain) — turns ERP and spreadsheet exports into replenishment and transfer decisions by crossing stock coverage and logistics flow with each category's share of revenue. React, Recharts, CSV/spreadsheet parsing. Built and evolved across multiple store operations.
+- **Sales performance calendar** (retail leadership) — generates a month view that distributes the sales target across days using the store's historical sales curve and commercial dates, then tracks target vs. actual per day. Lightweight single-file HTML tool — zero install for store managers.
+- **Marketplace MVP for a gaming startup** — Next.js, TypeScript, mock-first architecture designed to swap in the real backend without UI rewrites. Typed end to end, green build.
+- **Desktop automation assistant** — Python, Tesseract OCR, keyboard/mouse control with failsafe hotkeys and per-machine calibration config.
+- **Data pipeline for a sports-analytics spreadsheet product** — Google Apps Script importing CSV exports from Drive into structured analysis tabs, safe to re-run.
+
+## Products I built and operate
+
+- **[Entrevista Mapeada](https://entrevistamapeada.com.br)** — B2C interview-prep product, live in production. Next.js + Turso (libSQL) + Cloudflare R2 + Resend. Payment webhook triggers an automated document-generation pipeline (LLM with output validation) feeding a customer delivery portal.
+- **Escala que Converte** — retail scheduling intelligence: parses store sales and staffing spreadsheets, scores coverage in 15-minute slots, and optimizes schedules against each seller's conversion curve. React + Node. Adopted across 20+ stores of a national sporting-goods chain. ([case](https://escalaqueconverte.com.br))
+- **[PageForce](https://pageforce.com.br)** — websites and growth systems for local businesses. Vite/React/Tailwind/GSAP landing pages, Next.js client portal, n8n automations, and an internal pipeline built on the Claude Agent SDK — with tool whitelists, structured logs and human review on everything that reaches a client.
+
+## Public code
+
+- **[pageforce-seo-cro-checklist](https://github.com/Lob0Garou/pageforce-seo-cro-checklist)** — interactive SEO/CRO audit checklist with live scoring. Single-file vanilla HTML/CSS/JS, zero dependencies, no build step, deployed via GitHub Pages. ([live demo](https://lob0garou.github.io/pageforce-seo-cro-checklist/))
+
+Most of my work is client delivery, so it stays in private repositories on purpose. This profile shows enough to evaluate how I build; the rest I show on request.
+
+## Stack
+
+- **Languages:** TypeScript/JavaScript, C#, Python, SQL
+- **Frontend:** React, Next.js, Vite, Tailwind, GSAP, Recharts
+- **Backend:** Node.js, .NET 8 / EF Core, REST APIs, webhooks
+- **Data:** PostgreSQL, MySQL, Turso/libSQL, Supabase, spreadsheet/CSV/PDF parsing
+- **Testing:** xUnit, FsCheck (property-based), Playwright
+- **Infra:** Vercel, Cloudflare R2, GitHub Pages, CI on GitHub
+- **AI tooling:** LLM APIs and agent pipelines (Claude Agent SDK) treated as engineering components — logged, sandboxed, human-reviewed — never as a black box owning business rules
+
+## Open for work
+
+Freelance and contract. Best fit:
+
+- Web apps and MVPs (Next.js/React or .NET)
+- Automation of real business processes — data pipelines, integrations, bots
+- Dashboards and internal tools over messy operational data
+- Conversion-focused websites and landing pages
+
+Contact: [yuriqueiroz.com.br](https://yuriqueiroz.com.br)
