@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="660" viewBox="0 0 1240 660" role="img" aria-labelledby="title desc">
+  <title id="title">Yuri Queiroz — Software Engineer profile card</title>
+  <desc id="desc">ASCII portrait generated from Yuri's website hero image, with current stack, roles, selected work, and public GitHub statistics.</desc>
+  <metadata>Static profile card generated 2026-08-19 from https://yuriqueiroz.com.br/media/codice/hero-clean-desktop.webp</metadata>
+  <defs>
+    <linearGradient id="asciiGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0969da"/>
+      <stop offset="100%" stop-color="#8250df"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .body { font: 17px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .label { fill: #0969da; font-weight: 700; }
+    .value { fill: #24292f; }
+    .section { fill: #8250df; font: 700 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .bullet { fill: #1a7f37; font-weight: 700; }
+  </style>
+  <rect width="1240" height="660" rx="18" fill="#ffffff"/>
+  <rect x="12" y="12" width="1216" height="636" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+  <text x="36" y="52" fill="#57606a" class="mono" font-size="15">source: yuriqueiroz.com.br</text>
+  <text x="440" y="52" fill="#1a7f37" class="mono" font-size="21" font-weight="700">Lob0Garou@github</text>
+  <path d="M440 62H1198" stroke="#d0d7de" stroke-width="1"/>
+  <text class="mono" font-size="11.8" fill="url(#asciiGradient)" xml:space="preserve">
+    <tspan x="36" y="90">      :;i;:::,.,..,:  :;  ..</tspan><tspan x="36" y="104">    ,;:  r, ,:ri;;::;;,,,</tspan><tspan x="36" y="118">. ,r;    ,,:,ir; . .:;  .               ..</tspan><tspan x="36" y="132">:;X,    :i;:,  ,,           .:ir,...:r:. ,</tspan><tspan x="36" y="146">.  .   , .         ..,:,,..:;is;,;iii,</tspan><tspan x="36" y="160">. .,      :,,:.   :23hh32X:.isrriAi,  .:</tspan><tspan x="36" y="174">,     ,    .:   .29@@@@@@@&amp;h ,iirsi,..</tspan><tspan x="36" y="188">,.  .:,        iH##hH&amp;@ShHSBSs,i;:::.:: ..</tspan><tspan x="36" y="202">,,,.:,   .     S9#SSS@&amp;hMGG5GM,;:;;,.,.,.</tspan><tspan x="36" y="216">,:;,   .:     r@@#SB&amp;B9&amp;BGHB9M ,,;,,       .  .</tspan><tspan x="36" y="230">    :;;;.    :G@@@@BAXiA@@@@@H ,,.,;;;:.,:::,</tspan><tspan x="36" y="244">.:, ,:,      3&amp;@@BMMGGHA39@@&amp;2:ri ,rs;:r::   .,.,</tspan><tspan x="36" y="258">       .     hG@@9#&amp;#3GBGh@@9ishsi  :;::,</tspan><tspan x="36" y="272">   .,        :ihGhBBSX299hHGX.sX;:,     :i,..</tspan><tspan x="36" y="286">                . :;:,.,;  ,    ,.,;;,   ,,</tspan><tspan x="36" y="300">              ,;            ..     ,,.</tspan><tspan x="36" y="314">               A          .;s,          .:</tspan><tspan x="36" y="328">        ,      5r       ,:::             .,,</tspan><tspan x="36" y="342">      ..    ,, iHr    ,;;                     ,,.</tspan><tspan x="36" y="356">          ::   ,2Ss.,:rs            ...         ,</tspan><tspan x="36" y="370">.         .   2hsM#X;rAhX            .,,.,</tspan><tspan x="36" y="384">             iBBBS@#G9HX  .        ...,:::,,</tspan><tspan x="36" y="398">     .:;:.   r@@@@@&amp;93:  ....,   .  ,.,,,,,</tspan><tspan x="36" y="412">  ,:;;:,:,.. r&amp;@@&amp;BHi   .....,. ,.. ..  ..</tspan><tspan x="36" y="426">:;::, .:,  . s@@&amp;GA   .,....... , .</tspan><tspan x="36" y="440">,.,,,.,. .   s&amp;&amp;h:   ......,,.  .</tspan><tspan x="36" y="454">  ,,         A&amp;5       .....,,..</tspan><tspan x="36" y="468">             hh</tspan><tspan x="36" y="482">             i</tspan><tspan x="36" y="496"></tspan>
+  </text>
+  <text x="440" y="92" class="body"><tspan class="label">Role</tspan><tspan x="590" class="value">Software Engineer · Full-stack</tspan></text><text x="440" y="120" class="body"><tspan class="label">Focus</tspan><tspan x="590" class="value">.NET · TypeScript · React/Next.js</tspan></text><text x="440" y="148" class="body"><tspan class="label">Location</tspan><tspan x="590" class="value">Fortaleza, Brazil</tspan></text><text x="440" y="176" class="body"><tspan class="label">Experience</tspan><tspan x="590" class="value">Software development since 2022</tspan></text><text x="440" y="220" class="section">Current</text><text x="458" y="250" class="body value"><tspan class="bullet">›</tspan> Full-Stack Software Engineer · PageForce</text><text x="458" y="278" class="body value"><tspan class="bullet">›</tspan> Backend .NET · regulated platform (NDA)</text><text x="440" y="322" class="section">Stack</text><text x="440" y="352" class="body"><tspan class="label">Backend</tspan><tspan x="590" class="value">C#/.NET 8 · Node.js · Python</tspan></text><text x="440" y="380" class="body"><tspan class="label">Frontend</tspan><tspan x="590" class="value">TypeScript · React · Next.js</tspan></text><text x="440" y="408" class="body"><tspan class="label">Data</tspan><tspan x="590" class="value">SQL · PostgreSQL · MySQL · Turso</tspan></text><text x="440" y="436" class="body"><tspan class="label">Engineering</tspan><tspan x="590" class="value">REST · webhooks · tests · CI</tspan></text><text x="440" y="480" class="section">Selected work</text><text x="458" y="510" class="body value"><tspan class="bullet">›</tspan> Escala que Converte · 40+ stores · +0.86 pp observed</text><text x="458" y="538" class="body value"><tspan class="bullet">›</tspan> Entrevista Mapeada · B2C AI product in production</text><text x="458" y="566" class="body value"><tspan class="bullet">›</tspan> Regulated .NET backend · auth · tenancy · EF Core/MySQL</text><text x="458" y="594" class="body value"><tspan class="bullet">›</tspan> PageForce · web systems · automation · technical SEO</text>
+  <path d="M36 610H418" stroke="#d0d7de" stroke-width="1"/>
+  <text x="36" y="634" fill="#1a7f37" class="mono" font-size="15">8 public repos · 447 contributions in 2026</text>
+  <text x="1198" y="634" text-anchor="end" fill="#57606a" class="mono" font-size="14">yuriqueiroz.com.br</text>
+</svg>

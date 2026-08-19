@@ -1,12 +1,20 @@
+<a href="https://yuriqueiroz.com.br">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+    <img alt="Yuri Queiroz — Software Engineer profile card with ASCII portrait, stack, selected work, and GitHub statistics" src="light_mode.svg" width="100%" />
+  </picture>
+</a>
+
 # Yuri Queiroz
 
-**Full-stack developer — web apps, automation and internal tools that ship.**
+**Software Engineer — .NET · TypeScript · React/Next.js.**
 
 TypeScript · React/Next.js · Node.js · C#/.NET · Python · SQL — based in Brazil, working in PT-BR and EN.
 
 I build software end to end: data model, backend, UI, integrations, tests, deploy. Before writing code full time I spent 8+ years running high-pressure retail operations — conversion, staffing, inventory, daily targets — so I'm at my best turning a messy real-world workflow into a working system, and measuring the result instead of assuming it.
 
-**Currently:** client back-end work under NDA (.NET 8 / EF Core / MySQL) · operating [Entrevista Mapeada](https://entrevistamapeada.com.br) in production · evolving [Escala que Converte](https://escalaqueconverte.com.br) · building sites and growth systems at [PageForce](https://pageforce.com.br)
+**Currently:** Full-Stack Software Engineer at [PageForce](https://pageforce.com.br) · back-end work under NDA (.NET 8 / EF Core / MySQL) · operating [Entrevista Mapeada](https://entrevistamapeada.com.br) in production · evolving [Escala que Converte](https://escalaqueconverte.com.br)
 
 ## Recent client work
 
@@ -22,7 +30,7 @@ Client repos are private and names are withheld by agreement. I'm happy to walk 
 ## Products I built and operate
 
 - **[Entrevista Mapeada](https://entrevistamapeada.com.br)** — B2C interview-prep product, live in production. Next.js + Turso (libSQL) + Cloudflare R2 + Resend. Payment webhook triggers an automated document-generation pipeline (LLM with output validation) feeding a customer delivery portal.
-- **Escala que Converte** — retail scheduling intelligence: parses store sales and staffing spreadsheets, scores coverage in 15-minute slots, and optimizes schedules against each seller's conversion curve. React + Node. Adopted across 20+ stores of a national sporting-goods chain. ([case](https://escalaqueconverte.com.br))
+- **Escala que Converte** — retail scheduling intelligence: parses store sales and staffing spreadsheets, scores coverage in 15-minute slots, and optimizes schedules against each seller's conversion curve. React + Node. Used across 40+ stores, with a historical observed gain of +0.86 percentage point in conversion in the analyzed context. ([case](https://yuriqueiroz.com.br/projetos/escala-que-converte))
 - **[PageForce](https://pageforce.com.br)** — websites and growth systems for local businesses. Vite/React/Tailwind/GSAP landing pages, Next.js client portal, n8n automations, and an internal pipeline built on the Claude Agent SDK — with tool whitelists, structured logs and human review on everything that reaches a client.
 
 ## Public code
