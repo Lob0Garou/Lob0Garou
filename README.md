@@ -1,8 +1,8 @@
 <a href="https://yuriqueiroz.com.br">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=35f93c9" />
-    <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=35f93c9" />
-    <img alt="Yuri Queiroz — Software Engineer profile card with ASCII portrait, stack, selected work, and GitHub statistics" src="light_mode.svg?v=35f93c9" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lob0Garou/Lob0Garou/35f93c9/dark_mode.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lob0Garou/Lob0Garou/35f93c9/light_mode.svg" />
+    <img alt="Yuri Queiroz — Software Engineer profile card with ASCII portrait, stack, selected work, and GitHub statistics" src="https://raw.githubusercontent.com/Lob0Garou/Lob0Garou/35f93c9/light_mode.svg" width="100%" />
   </picture>
 </a>
 
